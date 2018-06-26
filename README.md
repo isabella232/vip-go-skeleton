@@ -17,3 +17,11 @@ To learn more, please see https://vip.wordpress.com/documentation/vip-go/underst
 In order to start the frontend project you should use the jam3 generator inside the folder `prj-frontend`.
 
 To learn more about the generator visit https://github.com/Jam3/generator-jam3.
+
+## How to enable the linting
+
+TBF
+
+## How to run the project
+
+TBF
