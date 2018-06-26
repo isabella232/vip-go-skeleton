@@ -1,15 +1,71 @@
-# Debug plugins
+## -------- Welcome to the Jam3-VIP gitignore --------
+##
+## Please add your generator ignores ordered by topics.
+## See https://help.github.com/ignore-files/ for more about ignoring files.
+
+## Frontend
+
+# Global
+.DS_Store
+*.log*
+
+# IDEs
+/.vscode/
+/sketch/
+
+# Node & Npm
+/node_modules
+/private/prj-frontend/node_modules/*
+
+# VIP Modules to revise
+
+# Source
+private/prj-frontend/src/manifest.json
+
+# Builds
+private/prj-frontend/build
+
+# Stats
+stats.html
+
+# Testing
+private/prj-frontend/coverage
+
+# Debugging Dev
+default-cra-rewrite-config.json
+final-cra-rewrite-config.json
+bundle-size-analyzer.html
+bundle-analyzer-report.html
+
+# CSS files of src
+private/prj-frontend/src/**/*.css
+
+# Documentation
+private/prj-frontend/public/components
+private/prj-frontend/public/styleguide
+
+## Wordpress
+
+# WP Debug plugins
 plugins/log-deprecated-notices
 plugins/monster-widget
 plugins/query-monitor
 plugins/user-switching
+plugins/vip-scanner
+plugins/wordpress-importer
+plugins/rest-api-console
 
-# Uploads directory
+# WP Uploads directory
 uploads
 
-# mu-plugins; these are managed at the platform-level
+# WP mu-plugins; these are managed at the platform-level
 mu-plugins
 
-# drop-ins; these are managed at the platform-level
+# WP drop-ins; these are managed at the platform-level
 object-cache.php
 db.php
+
+# WP Linters
+composer.json
+composer.lock
+vendor
