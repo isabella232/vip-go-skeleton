@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Jam3 - iran.reyes@jam3.com
+
+# THANKS
+
+  Wordpress VIP
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3
